@@ -1,0 +1,85 @@
+/* Add your custom CSS styles here */
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.card {
+    border: none;
+}
+
+.navbar {
+    background-color: #222;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+/* Add this CSS in a <style> section in your <head> or link to an external CSS file */
+
+
+
+/* Navigation Bar Button Hover Effect */
+.nav-item .nav-link:hover {
+    color: #007bff; /* Change the color to your desired hover color */
+    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Text color for the project section */
+#projects .card-title,
+#projects .card-text {
+    color: #000; /* Black text color */
+}
+
+/* Style the social media links */
+#Social-Media{
+    margin-top: 20px;
+}
+
+#Social-Media a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 50px;
+    color: #007bff; /* Change the color to match your design */
+}
+
+#Social-Media a:hover {
+    text-decoration: none;
+}
+
+/* Add this CSS in a <style> section in your <head> or link to an external CSS file */
+
+/* Social Media Icon Hover Effect */
+.social-icon i:hover {
+    color: #ef12b0; /* Change the color to your desired hover color */
+    transition: color 0.1s ease-in-out; /* Smooth transition effect */
+    
+}
+
+/* Add this CSS in a <style> section in your <head> or link to an external CSS file */
+
+.notification {
+    background-color: #f44336; /* Red background color */
+    color: white; /* White text color */
+    text-align: center;
+    padding: 10px; /* Add padding for spacing */
+}
