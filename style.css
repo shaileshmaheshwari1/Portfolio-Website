@@ -59,6 +59,7 @@ body {
     display: inline-block;
     margin-right: 10px;
     font-size: 50px;
+    font-family: Oleo Script Swash Caps;
     color: #007bff; /* Change the color to match your design */
 }
 
@@ -72,7 +73,7 @@ body {
 .social-icon i:hover {
     color: #ef12b0; /* Change the color to your desired hover color */
     transition: color 0.1s ease-in-out; /* Smooth transition effect */
-    
+    text-shadow: #007bff;
 }
 
 /* Add this CSS in a <style> section in your <head> or link to an external CSS file */
@@ -81,5 +82,7 @@ body {
     background-color: #f44336; /* Red background color */
     color: white; /* White text color */
     text-align: center;
+    font-size: 30px;
+    font-family:vardana;
     padding: 10px; /* Add padding for spacing */
 }
