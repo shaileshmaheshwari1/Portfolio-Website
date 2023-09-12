@@ -86,3 +86,8 @@ body {
     font-family:vardana;
     padding: 10px; /* Add padding for spacing */
 }
+
+/* Set a fixed height for project cards */
+.card {
+    height: 400px; /* You can adjust the height as needed */
+}

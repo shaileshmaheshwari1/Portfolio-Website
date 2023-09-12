@@ -103,49 +103,74 @@
 <section id="projects" class="bg-dark py-5 text-light">
     <div class="container">
         <h2 class="text-center">Projects</h2>
-        <div class="row">
-            <!-- Add your project cards here -->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="movie_image.webp" class="card-img-top" alt="Project 1">
-                    <div class="card-body">
-                        <!-- Add an anchor element with the link to your code/repository -->
-                        <a href="https://github.com/shaileshmaheshwari1/Movie-Recommend--System/tree/master" target="_blank">
-                            <h5 class="card-title">Movie Recommender System Project</h5>
-                        </a>
-                        <p class="card-text"></p>
+        <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <!-- Project 1 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="movie_image.webp" class="card-img-top" alt="Project 1">
+                                <div class="card-body">
+                                    <a href="https://github.com/shaileshmaheshwari1/Movie-Recommend--System/tree/master" target="_blank">
+                                        <h5 class="card-title">Movie Recommender System Using Machine Learning</h5>
+                                    </a>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 2 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="spam.png" class="card-img-top" alt="Project 2">
+                                <div class="card-body">
+                                    <a href="https://github.com/shaileshmaheshwari1/SMS-Spam-Classifier" target="_blank">
+                                        <h5 class="card-title">Email Spam/Notspam Classifier Using Machine Learning</h5>
+                                    </a>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 3 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="bok.webp" class="card-img-top" alt="Project 3">
+                                <div class="card-body">
+                                    <a href="https://github.com/shaileshmaheshwari1/Booking.com-Web-Scraping-Project-using-Selenium" target="_blank">
+                                        <h5 class="card-title">Booking.com Web Scraping Project using Selenium</h5>
+                                    </a>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="oyo.jpeg" class="card-img-top" alt="Project 3">
+                                <div class="card-body">
+                                    <a href="https://github.com/shaileshmaheshwari1/oyo-hotel-room-web-scrapping" target="_blank">
+                                        <h5 class="card-title">OYO Hotel Web Scraping Project using Selenium</h5>
+                                    </a>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
+                <!-- Add more carousel items as needed -->
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="spam.png" class="card-img-top" alt="Project 1">
-                    <div class="card-body">
-                        <!-- Add an anchor element with the link to your code/repository -->
-                        <a href="https://github.com/shaileshmaheshwari1/SMS-Spam-Classifier" target="_blank">
-                            <h5 class="card-title">Email Spam/Notspam Classifier</h5>
-                        </a>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="bok.webp" class="card-img-top" alt="Project 1">
-                    <div class="card-body">
-                        <!-- Add an anchor element with the link to your code/repository -->
-                        <a href="https://github.com/shaileshmaheshwari1/Booking.com-Web-Scraping-Project-using-Selenium" target="_blank">
-                            <h5 class="card-title">Booking.com-Web-Scraping-Project-using-Selenium</h5>
-                        </a>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            <!-- Add more project cards as needed -->
+            
+            <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
 </section>
-
 
 
 <!-- Social Media Section -->
@@ -190,8 +215,11 @@
         <div class="row">
             <div class="col-lg-6 mx-auto">
                 <p>Feel free to reach out to me:</p>
-                <p><strong>Email:</strong> shaileshmaheshwari133@gmail.com</p>
-                <p><strong>Mobile:</strong> +919328846861</p>
+                <!-- Clickable Email Address -->
+                <p><strong>Email:</strong> <a href="mailto:shaileshmaheshwari133@gmail.com">shaileshmaheshwari133@gmail.com</a></p>
+                <!-- Clickable Mobile Number -->
+                <p><strong>Mobile:</strong> <a href="tel:+919328846861">+919328846861</a></p>
+                <p><strong>Location:</strong> Ahmedabad</p>
 
 
 
