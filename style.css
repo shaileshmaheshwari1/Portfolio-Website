@@ -29,8 +29,8 @@ body {
 
 /* Navigation Bar Button Hover Effect */
 .nav-item .nav-link:hover {
-    color: #007bff; /* Change the color to your desired hover color */
-    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+    color: #007bff; 
+    transition: color 0.3s ease-in-out; 
 }
 
 
@@ -47,7 +47,7 @@ body {
 /* Text color for the project section */
 #projects .card-title,
 #projects .card-text {
-    color: #000; /* Black text color */
+    color: #000;
 }
 
 /* Style the social media links */
@@ -59,7 +59,7 @@ body {
     display: inline-block;
     margin-right: 10px;
     font-size: 50px;
-    color: #007bff; /* Change the color to match your design */
+    color: #007bff; 
 }
 
 #Social-Media a:hover {
@@ -70,16 +70,38 @@ body {
 
 /* Social Media Icon Hover Effect */
 .social-icon i:hover {
-    color: #ef12b0; /* Change the color to your desired hover color */
-    transition: color 0.1s ease-in-out; /* Smooth transition effect */
+    color: #ef12b0; 
+    transition: color 0.1s ease-in-out; 
     
 }
 
 /* Add this CSS in a <style> section in your <head> or link to an external CSS file */
 
 .notification {
-    background-color: #f44336; /* Red background color */
-    color: white; /* White text color */
+    background-color: #f44336; 
+    color: white; 
     text-align: center;
-    padding: 10px; /* Add padding for spacing */
+    padding: 10px; 
+}
+
+.card {
+    height: 400px;
+}
+
+.card .card-img-top {
+    height:250px;
+
+}
+
+.card .card-title:hover {
+    color: #f40e4f;
+    text-decoration: underline;
+} 
+
+
+/* Style for the card title on hover */
+.carousel-item .card-title:hover {
+    color: #007bff; 
+    text-decoration: underline; 
+    cursor: pointer; 
 }
