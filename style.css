@@ -78,10 +78,11 @@ body {
 /* Add this CSS in a <style> section in your <head> or link to an external CSS file */
 
 .notification {
-    background-color: #f44336; 
-    color: white; 
+    background-color: #07f72b; 
+    color: rgb(12, 10, 10); 
     text-align: center;
     padding: 10px; 
+    height: 40px;
 }
 
 .card {
